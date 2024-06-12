@@ -26,8 +26,8 @@ jobs:
     - uses: cloudflare/wrangler-action@v3
       with:
         packageManager: pnpm
-        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        apiToken: c155dafb9dfa6d68e70dff89b57a674a
+        accountId: AQtChNcrK-wdw2g9TV7EewKY-AxLnFDhhvY6ssHH
         preCommands: |
           # Check if database is created
           pnpm add -g wrangler
